@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>27de55fc-c8ca-4c2b-8df7-f3ea665b4049</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LanguageTargets>$(MSBuildExtensionsPath)\RainCodeLanguageService\RainCodeLanguageService.targets</LanguageTargets>
+    <EntryPoint>hello</EntryPoint>
+  </PropertyGroup>
+  <ItemGroup>
+    <Cobol Include="**\*.cob" />
+    <Include Include="**\*.cpy" />
+  </ItemGroup>
+</Project>
